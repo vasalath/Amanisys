@@ -1,0 +1,168 @@
+/* Start Variables, extend and mixin .. */
+/* end Variables */
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("../fonts/Roboto-Condensed.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* start about-slider style */
+.about-slider .navbar .navbar-light .navbar-toggler {
+  border-color: #a7a9ac !important;
+}
+
+.about-slider .navbar .navbar-toggler {
+  background-color: #33FF99 !important;
+}
+
+.about-slider .navbar .navbar-nav {
+  margin: 40px auto;
+}
+
+@media (min-width: 992px) {
+  .about-slider .navbar .navbar-nav .nav-item {
+    font-family: 'Roboto-Light';
+    font-size: 25px;
+    border-right: 2px solid #a7a9ac !important;
+    line-height: 40%;
+  }
+}
+
+.about-slider .navbar .navbar-nav .nav-item .nav-link {
+  color: #a7a9ac !important;
+  margin: 0 10px;
+}
+
+.about-slider .navbar .navbar-nav .nav-item .nav-link.active {
+  color: #33FF99 !important;
+}
+
+.about-slider .carousel .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(70, 70, 70, 0.35);
+  z-index: 2;
+}
+
+.about-slider .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.about-slider .carousel .carousel-indicators li.active {
+  background-color: #33FF99 !important;
+}
+
+.about-slider .carousel .carousel-inner .carousel-item .logo {
+  position: absolute;
+  width: 11.02%;
+  height: 27.55%;
+  margin-top: 70px;
+  margin-left: 70px;
+  z-index: 5;
+}
+
+@media (max-width: 991px) {
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 span {
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    -webkit-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: 50% 0 50% 50%;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 37%;
+    height: 50%;
+    border: 1px solid #33FF99 !important;
+    color: #a7a9ac !important;
+    padding: 40px 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption::after {
+    content: "\f107";
+    position: absolute;
+    bottom: -10%;
+    font-family: fontawesome;
+    font-size: 20px;
+    color: #33FF99 !important;
+    left: 0;
+    right: 0;
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 span {
+    color: #33FF99 !important;
+    font-family: 'Roboto-Bold';
+    display: block;
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption p {
+    margin-top: 40px;
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption p span {
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Roboto-Light';
+  }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption p span:nth-of-type(2) {
+    border-right: 2px solid #33FF99 !important;
+    border-left: 2px solid #33FF99 !important;
+  }
+}
+
+/* end about-slider style */
+/*# sourceMappingURL=main.css.map */
