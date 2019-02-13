@@ -36,6 +36,16 @@
   box-sizing: border-box;
 }
 
+h1, p, span, li, a {
+  z-index: 5;
+}
+
+a, a:active, a:hover, a:visited {
+  text-decoration: none;
+  outline: none;
+  color: unset;
+}
+
 /* start about-slider style */
 .about-slider .navbar .navbar-light .navbar-toggler {
   border-color: #a7a9ac !important;
@@ -53,8 +63,10 @@
   .about-slider .navbar .navbar-nav .nav-item {
     font-family: 'Roboto-Light';
     font-size: 25px;
-    border-right: 2px solid #a7a9ac !important;
     line-height: 40%;
+  }
+  .about-slider .navbar .navbar-nav .nav-item:not(:last-of-type) {
+    border-right: 2px solid #a7a9ac !important;
   }
 }
 
@@ -63,7 +75,7 @@
   margin: 0 10px;
 }
 
-.about-slider .navbar .navbar-nav .nav-item .nav-link.active {
+.about-slider .navbar .navbar-nav .nav-item .nav-link.active, .about-slider .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #33FF99 !important;
 }
 
@@ -108,9 +120,9 @@
 
 @media (min-width: 768px) {
   .about-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    -webkit-box-sizing: content-box;
-    -o-box-sizing: content-box;
-    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
     border-radius: 50% 0 50% 50%;
     -moz-flex-direction: column;
     -o-flex-direction: column;
@@ -124,7 +136,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 37%;
-    height: 50%;
+    height: 66.8%;
     border: 1px solid #33FF99 !important;
     color: #a7a9ac !important;
     padding: 40px 20px;
@@ -145,6 +157,10 @@
     left: 0;
     right: 0;
   }
+  .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-family: 'Roboto-Light';
+    font-size: 40px;
+  }
   .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 span {
     color: #33FF99 !important;
     font-family: 'Roboto-Bold';
@@ -162,6 +178,24 @@
     border-right: 2px solid #33FF99 !important;
     border-left: 2px solid #33FF99 !important;
   }
+}
+
+.about-slider .carousel .carousel-inner .carousel-item .get-in-touch {
+  display: inline-block;
+  position: absolute;
+  right: 20%;
+  bottom: 3%;
+  font-family: 'Roboto-Light';
+  color: #a7a9ac !important;
+  font-size: 14px;
+  z-index: 16;
+}
+
+.about-slider .carousel .carousel-inner .carousel-item .get-in-touch::after {
+  content: '\f061';
+  color: #33FF99 !important;
+  font-family: fontawesome;
+  margin-left: 10px;
 }
 
 /* end about-slider style */
