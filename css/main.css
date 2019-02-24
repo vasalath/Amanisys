@@ -114,6 +114,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   }
 }
 /* start about-slider style */
+
 .about-slider .navbar {
   padding: 0;
 }
@@ -213,7 +214,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 
 .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
   font-family: 'Roboto-Light';
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .about-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 span {
@@ -222,13 +223,9 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   display: block;
 }
 
-.about-slider .carousel .carousel-inner .carousel-item .carousel-caption p {
-  margin-top: 40px;
-}
-
 .about-slider .carousel .carousel-inner .carousel-item .carousel-caption p span {
   padding: 0 10px;
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Roboto-Light';
 }
 
@@ -291,6 +288,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 /* end about-slider style */
+
 /* start our services */
 .our-services {
   background-color: #33FF99 !important;
@@ -320,13 +318,19 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 .our-services .carousel .carousel-inner .carousel-item .service p {
-  width: 92%;
+  width: 92%;  
 }
 
-.our-services .carousel .carousel-inner .carousel-item .service a i {
+.our-services .carousel .carousel-inner .carousel-item .service i {
   margin-left: 5px;
-  color: #000000 !important;
+  color: #000000 !important;  
 }
+
+.our-services .carousel .carousel-inner .carousel-item .service a {
+ font-size: 13px; 
+}
+
+
 
 .our-services .carousel a span:first-of-type {
   font-size: 50px;
@@ -334,6 +338,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 /* end our services */
+
 /* start porfolio */
 .portfolio {
   background-color: #000000 !important;
@@ -361,6 +366,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 /* end porfolio */
+
 /* start testimonials */
 .testimonials {
   background-color: #333132 !important;
@@ -419,6 +425,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .testimonials .carousel .carousel-inner {
   background-color: #000000 !important;
   margin-bottom: 80px !important;
+  height:100%;
 }
 
 .testimonials .carousel .carousel-inner .carousel-item {
@@ -432,7 +439,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .testimonials .carousel .carousel-inner .carousel-item q {
@@ -440,7 +447,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   font-style: italic;
   font-size: 16px;
   display: block;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   color: #a7a9ac !important;
 }
 
@@ -469,12 +476,17 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 .testimonials .carousel .carousel-inner .carousel-item p {
-  font-size: 13px;
+  font-size: 12px;
   color: #a7a9ac !important;
   font-family: 'Roboto-Light';
 }
 
+.testimonials .carousel .carousel-indicators li.active {
+  background-color: #33FF99 !important;  
+}
+
 /* end testimonials */
+
 /* start team */
 
 .team {
@@ -487,7 +499,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 .team .section-header {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .team .section-header p,
@@ -498,7 +510,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .team .row .member-col {
   padding: 0;
   padding-bottom: 60px;
-  height: 300px;
+  height: 270px;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
@@ -614,7 +626,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   margin-left: 80px;
   margin-top: 10px;
   font-size: 13px;
-  text-align: left;
+  text-align: right;
   line-height: 1.8;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
@@ -645,7 +657,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 .team .row .member .member-img {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding: 30px 65px 25px;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
@@ -691,7 +703,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 
 .team .row .member .member-info p.more__info {
   font-family: 'Roboto-Thin';
-  display: none;
+  display:none;
 }
 
 @media (min-width: 768px) {
@@ -701,11 +713,12 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 /* end team */
+
 /* start contact us */
 .contact-us {
   background-image: url(../imgs/contact-bg.jpg);
   background-size: cover;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
 }
 
 .contact-us .v-line {
@@ -737,7 +750,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   background-color: unset;
   outline: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
+          box-shadow: none;           
 }
 
 .contact-us form input + label {
@@ -747,7 +760,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
           transform: translateY(-2.5em);
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  opacity: 0.3;
+  opacity: 0.5;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
   transition: opacity 0.2s, -webkit-transform 0.2s;
   transition: transform 0.2s, opacity 0.2s;
@@ -802,7 +815,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 }
 
 .contact-us .footer .office {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .contact-us .footer .office h6 {
@@ -813,6 +826,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .contact-us .footer .office li {
   font-family: 'Roboto-Regular';
   line-height: 1.3;
+  font-size: 12px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -827,15 +841,15 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
     margin-left: 0;
   }
 }
-
+/
 @media (min-width: 992px) {
   .contact-us .footer .branch {
     float: right;
   }
-}
+} 
 
 .contact-us .footer .logo {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   width: 91px;
   height: 117px;
   z-index: 5;
@@ -894,4 +908,13 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   right: 100%;
   z-index: -200 !important;
 }
+
+.copyright, .copyright a:hover
+{
+  font-family: 'Roboto-Regular';
+  font-size: 10px;
+  color: #33FF99 !important;
+}
+
+
 /*# sourceMappingURL=main.css.map */
