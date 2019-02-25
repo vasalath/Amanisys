@@ -12,7 +12,7 @@
   }
 }
 
-.our-services .v-line, .portfolio .v-line, .testimonials .v-line, .team .v-line, .contact-us .v-line {
+.about-us .v-line, .our-services .v-line, .portfolio .v-line, .testimonials .v-line, .team .v-line, .contact-us .v-line {
   height: 100px;
   width: 1px;
   margin: 0 auto 20px;
@@ -335,11 +335,32 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 
 /* end about-slider style */
 
+/* start about us */
+.about-us {
+  background-color: #000000 !important;
+  height: 100%;
+  
+}
+
+.about-us .v-line {
+  background-color: #33FF99 !important;
+}
+
+.about-us-content p{
+    text-align: justify;
+    font-size: 14px;
+    /* width: 92%; */
+    
+  }
+
+/* end about us */
+
+
 /* start our services */
 .our-services {
   background-color: #33FF99 !important;
   padding-bottom: 120px;
-    height: 100%; /* added3 */
+  height: 100%; /* added3 */
 }
 
 @media(max-width:768px){
@@ -392,8 +413,6 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .our-services .carousel .carousel-inner .carousel-item .service a {
  font-size: 13px; 
 }
-
-
 
 .our-services .carousel a span:first-of-type {
   /* font-size: 50px; */
