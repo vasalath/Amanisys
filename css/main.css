@@ -51,12 +51,15 @@
 
 /* global style */
 html {
+    height: 100%; /* added3 */
   -ms-scroll-behavior: smooth;
   -moz-scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
-
+body { /* added3 */
+    height: 100%; 
+}
 * {
   color: #a7a9ac !important;
   -webkit-box-sizing: border-box;
@@ -336,6 +339,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .our-services {
   background-color: #33FF99 !important;
   padding-bottom: 120px;
+    height: 100%; /* added3 */
 }
 
 .our-services .v-line {
@@ -530,12 +534,12 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   padding-left: 70px;
   padding-right: 70px;
 }
-@media (max-width: 768px){
-  .testimonials .carousel .carousel-inner .carousel-item { /* added 2 */
+@media (max-width: 768px)
+.testimonials .carousel .carousel-inner .carousel-item { /* added 2 */
     padding-left: 20px;
     padding-right: 20px;
 }
-}
+
 .testimonials .carousel .carousel-inner .carousel-item img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,7 +727,6 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   left: -35px;
   bottom: 20px;
 }
-
 .team .row .member-col:hover .member .member-info p:first-of-type {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
