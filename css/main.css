@@ -451,7 +451,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .testimonials .testi-row { /* edit */
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-top: 0px;
+  margin-top: 80px;
   align-items: flex-end;
   /* overflow: hidden; */ 
 }
@@ -514,14 +514,6 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
  }
 }
 /* end added */
-
-
-
-
-
-
-
-
 
 .testimonials .carousel .carousel-inner {
   background-color: #000000 !important;
@@ -744,7 +736,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   margin-top: 10px;
   font-size: 13px;
   text-align: left;
-  line-height: 1.8;
+  line-height: 1.5 ;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
