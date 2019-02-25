@@ -2,15 +2,15 @@
 $("document").ready(function($){
 
 // navbar change background
-    var nav = $('#mainnav');
-    $(window).scroll(function () {
+    // var nav = $('#mainnav');
+    // $(window).scroll(function () {
 		
-        if ($(this).scrollTop() > 0) {
-            nav.addClass("sticky");
-        } else {
-            nav.removeClass("sticky");
-        }
-        });
+    //     if ($(this).scrollTop() > 0) {
+    //         nav.addClass("sticky");
+    //     } else {
+    //         nav.removeClass("sticky");
+    //     }
+    //     });
    
     // scroll top 
 	var scrollBtn = $(".scroll-up");
