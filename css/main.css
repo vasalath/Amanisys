@@ -451,7 +451,7 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
 .testimonials .testi-row { /* edit */
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-top: 80px;
+  margin-top: 0px;
   align-items: flex-end;
   /* overflow: hidden; */ 
 }
