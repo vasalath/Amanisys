@@ -564,6 +564,14 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
     padding: 15px 10px;
   }
 }
+@media (max-width: 350px) {
+  .testimonials .carousel .carousel-inner .carousel-item h4 { /*added  */
+    padding: 15px 5px;
+    font-size: 10px;
+    text-transform: capitalize !important;
+  }
+}
+
 .testimonials .carousel .carousel-inner .carousel-item h4::before {
   content: '';
   width: 70%;
@@ -997,6 +1005,11 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
   transform: rotate(-90deg);
   position: fixed;
   z-index: 1000000;
+}
+@media(max-width: 767px) {
+  #scrollUp {
+      right: -20px;
+  }
 }
 #scrollUp:hover {
   color: #33FF99 !important;
