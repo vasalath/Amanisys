@@ -342,6 +342,12 @@ a, a:active, a:hover, a:visited, a:focus, button:focus {
     height: 100%; /* added3 */
 }
 
+@media(max-width:768px){
+  .our-services{
+    height: auto;
+  }
+}
+
 .our-services .v-line {
   background-color: #000000 !important;
 }
